@@ -3,11 +3,11 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-const Section = styled.section`
-  padding: 4rem 2rem;
-  background: #0a0a0a;
-  color: white;
-`;
+// const Section = styled.section`
+//   padding: 4rem 2rem;
+//   background: #0a0a0a;
+//   color: white;
+// `;
 
 const Title = styled(motion.h2)`
   font-size: 2.5rem;

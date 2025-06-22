@@ -2,7 +2,6 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Stars } from '@react-three/drei';
 import { ClothBackground } from './ClothBackground';
 const float = keyframes`
   0% { transform: translateY(0); }
@@ -53,14 +52,6 @@ const HeroText = styled(motion.div)`
 `;
 
 
-const CanvasWrapper = styled(Canvas)`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-`;
 
 
 

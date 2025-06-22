@@ -83,19 +83,19 @@ const ProjectCard = styled(motion.div)`
   }
 `;
 
-const VisitLink = styled.a`
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background: #6dd5fa;
-  color: #000;
-  border-radius: 6px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: 0.3s ease;
-  &:hover {
-    background: #48c7f5;
-  }
-`;
+// const VisitLink = styled.a`
+//   display: inline-block;
+//   padding: 0.5rem 1rem;
+//   background: #6dd5fa;
+//   color: #000;
+//   border-radius: 6px;
+//   font-weight: bold;
+//   text-decoration: none;
+//   transition: 0.3s ease;
+//   &:hover {
+//     background: #48c7f5;
+//   }
+// `;
 
 const NoAccess = styled.span`
   display: inline-block;
