@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { motion } from 'framer-motion';
-import { Canvas } from '@react-three/fiber';
+// import { Canvas } from '@react-three/fiber';
 import { ClothBackground } from './ClothBackground';
 const float = keyframes`
   0% { transform: translateY(0); }
