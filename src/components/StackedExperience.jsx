@@ -17,11 +17,11 @@ const Card = styled(motion.div)`
   width: 80%;
   padding: 1.5rem;
   border-radius: 14px;
-  background: ${({ isHovered }) => (isHovered ? "#6dd5fa" : "#1c1c1c")};
+  background: ${({ isHovered }) => (isHovered ? "#1c1c1c" : "#1c1c1c")};
   color: ${({ isHovered }) => (isHovered ? "#000" : "#fff")};
   box-shadow: ${({ isHovered }) =>
     isHovered
-      ? "0 12px 25px rgba(109, 213, 250, 0.4)"
+      ? "0 0 25px rgba(109, 213, 250, 0.4)"
       : "0 0 8px rgba(0, 0, 0, 0.2)"};
   transition: background 0.3s ease, color 0.3s ease;
   z-index: ${({ z }) => z};
@@ -29,7 +29,7 @@ const Card = styled(motion.div)`
   overflow: hidden;
 
   h3 {
-    color: ${({ isHovered }) => (isHovered ? "#090909" : "#6dd5fa")};
+    color: ${({ isHovered }) => (isHovered ? "#6dd5fa" : "#6dd5fa")};
     margin-bottom: 0.5rem;
     transition: color 0.3s ease;
   }

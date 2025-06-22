@@ -22,15 +22,18 @@ const PageWrapper = styled.div`
 const ImageContainer = styled.div`
   flex: 1;
   text-align: center;
-  
+ 
   img {
     max-width: 300px;
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 0 20px #6dd5fa33;
+    // image should be in center from all sides
+    margin: 5rem 0;
   }
     @media (min-width: 768px) {
-    margin-bottom: 4rem;
+    margin-bottom: 4rem !important;
+    margin: 0;
   }
 `;
 
